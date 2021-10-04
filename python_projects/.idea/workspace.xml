@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="621c2ead-419d-450e-85d6-20038bf59e49" name="Default Changelist" comment="python project repository 분리">
-      <change beforePath="$PROJECT_DIR$/../my" beforeDir="false" afterPath="$PROJECT_DIR$/../my" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contact/src/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/Contact/src/contact.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +48,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.4268585" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,15 +58,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1633357701869</updated>
       <workItem from="1633357703638" duration="396000" />
-      <workItem from="1633358145525" duration="301000" />
+      <workItem from="1633358145525" duration="840000" />
+      <workItem from="1633359506229" duration="1141000" />
     </task>
     <task id="LOCAL-00001" summary="python project repository 분리">
       <created>1633358179435</created>
@@ -105,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633358286274</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="python project repository 분리">
+      <created>1633358550218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633358550218</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
