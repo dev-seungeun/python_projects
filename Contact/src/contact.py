@@ -27,7 +27,7 @@ def print_contact(contact_list):
 
 
 def store_contact(contact_list):
-    f = open("contact_db.txt", "wt")
+    f = open("contact_db.txt", "wt", encoding="UTF-8")
     for contact in contact_list:
         f.write(contact.name + '\n')
         f.write(contact.phone_number + '\n')
@@ -37,7 +37,7 @@ def store_contact(contact_list):
 
 
 def load_contact(contact_list):
-    f = open("contact_db.txt", "rt")
+    f = open("contact_db.txt", "rt", encoding="UTF-8")
     lines = f.readlines()
     num = len(lines) / 4
     num = int(num)
@@ -81,7 +81,7 @@ def print_menu():
     print("2. 연락처 출력")
     print("3. 연락처 삭제")
     print("4. 저장 & 종료")
-    menu = input("메뉴선택: ")
+    menu = input("메뉴 선택 : ")
     return int(menu)
 
 
