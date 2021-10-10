@@ -26,16 +26,16 @@ try:
         print("=================================")
         tm = time.localtime()
         string = time.strftime('%Y-%m-%d %I:%M:%S %p', tm)
-        print(string, "현재가")
+        print(string)
 
         # 삼성전자 005930
-        print("  > 삼성전자 현재가", get_price("005930"))
+        print("  > 삼성전자 :", get_price("005930"))
 
         # 셀트리온 068270
-        print("  > 셀트리온 현재가 :", get_price("068270"))
+        print("  > 셀트리온 :", get_price("068270"))
 
         # 카카오 035720
-        print("  > 솔루엠 현재가", get_price("248070"))
+        print("  > 솔루엠   :", get_price("248070"))
 
 except KeyboardInterrupt:
     sys.exit(0)  # or 1, or whatever
