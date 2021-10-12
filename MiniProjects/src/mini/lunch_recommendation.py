@@ -20,5 +20,5 @@ for menu, price in zip(menus, prices):
 '''
 
 i = random.randint(0, len(menus) - 1)
-print('추천 메뉴:', menus[i])  # 추천 메뉴: 초밥
-print('메뉴 가격:', prices[i])  # 메뉴 가격: 9000
+print('추천 메뉴:', menus[i])
+print('메뉴 가격:', prices[i])
