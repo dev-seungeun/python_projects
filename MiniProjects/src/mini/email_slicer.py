@@ -1,4 +1,4 @@
-email = input("What is your email address? : ").strip()
+email = input("What is your email address?? : ").strip()
 print(email)
 user_name = email[:email.index("@")]
 domain_name = email[email.index("@")+1:]
